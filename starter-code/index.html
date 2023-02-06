@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Memory game</title>
-</head>
+</head> 
 <body>
   <div class="gamecontainer">
-    <div class="subcontainer">
+    <!-- <div class="subcontainer"> -->
     <div class="gametitle">
       <img src="./assets/logo.svg" alt="">
-    </div class = "theme">
-    Select Theme
-    </div >
+    </div>
+    <div class="theme">  <p> Select Theme </p></div> 
+    <!-- </div > -->
+    
     <div class="buttons">
-    <div class="button1">
-    <button> <p> Numbers</p> </button>
+      <a class="button1" href="./numbers.html">
+        <button> <p> Numbers</p> </button>
+      </a>
+    <div >
+    
   </div>
   <div class="button2">
     <button> <p>  Icons</p></button>
@@ -29,61 +35,65 @@
 
   <!-- Game setup start -->
 
-  <div class="count"><p> Number of Players</p>
-  1
-  2
-  3
-  4
-</div>
+  <div class="countplayers"><p> Number of Players</p>
+    <div class="countbuttons">
+    <div class="buttons1"><button><p> 1 </p></button></div>
+    <div class="buttons2"> <button> <label>2 </label></button></div>
+    <div class="buttons3"> <button> <span>3</span></button></div>
+    <div class="buttons4"><button> <ul> 4</ul> </button></div>
+  </div>
+  </div>
+  <div class="gridsize"> <p> Grid sizes</p>
+    <div class="size4"> <button> 4x4</button></div>
+    <div class="size6"><button> 6x6</button></div>
+  </div>
+    <div class="start">  
+      <button> <p>Start Game</p> </button>
+ </div>
+ 
  
 
-
-  Grid Size
-  4x4
-  6x6
-
-  Start Game
+  <!-- Start Game -->
 
   <!-- Game setup end -->
 
   <!-- Game board start -->
 
-  Restart
-  New Game
+  <!-- Restart
+  New Game -->
 
   <!-- Multiplayer scores start -->
 
-  Player 1
+  <!-- Player 1 -->
   <!-- P1 score -->
-  Current Turn
+  <!-- Current Turn -->
 
-  Player 2
+  <!-- Player 2 -->
   <!-- P2 score -->
-  Current Turn
+  <!-- Current Turn -->
 
-  Player 3
+  <!-- Player 3 -->
   <!-- P3 score -->
-  Current Turn
+  <!-- Current Turn -->
 
-  Player 4
+  <!-- Player 4 -->
   <!-- P4 score -->
-  Current Turn
+  <!-- Current Turn -->
 
   <!-- Multiplayer scores start -->
 
   <!-- Solo game time and moves counter start -->
 
-  Time
+  <!-- Time -->
   <!-- Time elapsed -->
 
-  Moves
+  <!-- Moves -->
   <!-- Moves total -->
 
   <!-- Solo game time and moves counter end -->
 
   <!-- Game board end -->
 </div>
-
-
+</div>
 </body>
 </html>
