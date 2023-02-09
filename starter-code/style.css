@@ -24,13 +24,16 @@ top: -80px;
 
 .gamecontainer {
 position: absolute;
+display: block ;
+left:0px;
+right: 0px;
+margin: 0  auto;
 width:654px;
 height: 559px;
 background: #FCFCFC;
 border-radius: 20px;
 align-items: center;
-left: 520px;
-top:145px;   
+top:100px;   
 }
 
 .theme p {
@@ -237,11 +240,84 @@ font-weight: 700;
 font-size: 32px;
 line-height: 40px;
 text-align: center;
+color: #FCFCFC;
+}
+
+.buttons1 p {
+position: absolute;
+top: -13px;
+height: 32px;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
 
 color: #FCFCFC;
 
 }
 
+.buttons2 label{
+    position: absolute;
+top: 5px;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+
+color: #FCFCFC;
+
+}
+
+.buttons3 span {
+    position: absolute;
+    height: 32px;
+    top: 5px;
+  
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    
+    color: #FCFCFC;
+    
+}
+
+.buttons4 ul{
+    position: absolute;
+    top: -13px;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+
+color: #FCFCFC;
+
+}
+
+.size4 p{
+    position: absolute;
+height: 32px;
+top:-15px;
+left: 100px;
+font-weight: 700;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+
+color: #FCFCFC;
+
+}
+.size6 span {
+    position: absolute;
+    top:10px;
+    left: 100px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #FCFCFC
+    ;
+    
+}
   
 
 
