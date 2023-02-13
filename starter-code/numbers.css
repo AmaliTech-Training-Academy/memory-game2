@@ -12,12 +12,22 @@ body {
     background-color:#F2F2F2;
 }
 
-.nav1{
+.nav1 {
+  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    /* width: 300px;
+    height: 100px; */
+    /* background-color: blue; */   
 }
+ .img {
+    position:absolute ; 
+    left:  80px;
+ }
 .button1 {
     position: absolute;
     width: 127px;
@@ -63,4 +73,50 @@ border-radius: 26px;
 
 .nav2{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.buttons1 {
+width: 165px;
+height: 72px;
+left: 165px;
+top: 878px;
+background:#FDA214;
+border-radius: 10px;
+}
+.buttons2 {
+    width: 165px;
+    height: 72px;
+    left: 200px;
+    top: 878px; 
+background:#DFE7EC;
+border-radius: 10px;
+}
+.buttons3 {
+
+    /* position: absolute; */
+    left: 300px;
+    top: 500px;
+    width: 165px;
+    height: 72px;
+    background: #DFE7EC;
+    border-radius: 10px;
+}
+.buttons4 {
+    /* position: absolute; */
+    
+    left: 400px;
+    top: 500px;
+    width: 165px;
+    height: 72px;
+    background: #DFE7EC;
+    border-radius: 10px;
+}
+.buttons1 p {
+    position: absolute;
+    top: 643px; 
+    left:485px;
+    justify-content: space-between; 
 }
