@@ -51,8 +51,8 @@ left: 50px;
 .circlescontainer {
     position: absolute;
     display: grid;
-    grid-template-columns :repeat( 6, 1fr) ;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns :repeat( 4, 1fr) ;
+    grid-template-rows: repeat(4, 1fr);
     gap :15px;
     width: 572px;
     height: 572px;
@@ -77,7 +77,7 @@ left: 50px;
     width: 1110px;
 height: 90px;
 left: 50px;
-top: 930px;
+top: 910px;
 background-color: azure;
 
 }
@@ -168,7 +168,7 @@ background-color: azure;
     position: absolute;
     width: 180px;
     height: 16px;
-    top: 1006px;
+    top: 1000px;
     left: 598px;
     font-weight: 700;
 font-size: 13px;
@@ -178,7 +178,3 @@ letter-spacing: 5px;
 
 color: #152938;
 }
-
-
-
-
