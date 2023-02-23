@@ -58,7 +58,10 @@ left: 50px;
     height: 572px;
     left: 368px;    
     top: 203px;
+    align-items: center;
+    
     background-color:green;
+    /* backface-visibility: hidden; */
     margin: 5rem auto;
 }
 .circle {

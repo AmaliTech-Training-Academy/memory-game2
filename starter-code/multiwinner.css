@@ -4,7 +4,7 @@ body {
 margin: 0px;
 padding: 0px;
 font-family: 'Atkinson Hyperlegible';
-background-color:blue;
+/* background-color:blue; */
 }
 .maincontainer {
     position:relative;
@@ -12,7 +12,7 @@ background-color:blue;
     justify-content: space-between;
     width: 654px;
     height: 702px;
-    background-color: yellow;
+    /* background-color: yellow; */
     left: 0px;
     right: 0px;
     margin: 0 auto;

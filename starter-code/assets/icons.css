@@ -48,6 +48,9 @@ left: 50px;
     background:  #DFE7EC;;
     border-radius: 26px;
 }
+.button2 p {
+
+}
 .circlescontainer {
     position: absolute;
     display: grid;
@@ -56,7 +59,9 @@ left: 50px;
     gap :15px;
     width: 572px;
     height: 572px;
-    left: 368px;    
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;    
     top: 203px;
     background-color:green;
     margin: 5rem auto;

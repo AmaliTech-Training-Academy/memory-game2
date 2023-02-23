@@ -13,7 +13,7 @@ position: relative;
 top:10px;
 width: 90%;
 height: 1024px;
-background-color:purple;
+/* background-color:purple; */
 margin: auto;
 
 }
@@ -81,22 +81,35 @@ top: 910px;
 background-color: azure;
 
 }
-.buttons1 {
-
+.buttons1  {
+position: absolute;
     width: 255px;
+    left: 350px;
     height: 72px;
     background: #DFE7EC;
     border-radius: 10px;
     border: 1px none;
-   top: 912px;
+   top: 10px;
 }
-.buttons2 {
+/* .buttons1 label {
+    position: absolute;
+height: 22px;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #7191A5;
+} */
 
+
+ 
+.buttons2 {
+position: absolute;
     width: 255px;
     height: 72px;
     background:  #FDA214;
     border-radius: 10px;
-   top: 912px;
+   top: 10px;
+   left: 650px;
    border: 1px none;
 }
 .buttons3 {
@@ -119,27 +132,50 @@ background-color: azure;
 }
 .buttons1 label {
    position: absolute;
-   left: 15px;
+   left: 100px;
    top: 25px;
+   height: 22px;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 22px;
+   color: #7191A5;
 }
 .buttons1 p {
     position:absolute ;
-    left: 240px;
-    top: 15px;
+    display: flex;
+    left: 180px;
+    top: -10px;
+font-weight: 700;
+font-size: 32px;
+line-height: 30px;
+text-align: right;
+color: #304859;
 }
-.buttons2 label {
-    position: absolute;
-    left: 300px;
-    top: 25px;
 
+.buttons2 label {
+    /* position: absolute; */
+    left: 100
+    0px;
+    top: 25px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #7191A5;
 }
+
 .buttons2 p {
     position: absolute;
-    left: 520px;
-    top: 15px;
-
+    left: 203px;
+    top: -10px;
+    font-weight: 700;
+font-size: 32px;
+line-height: 30px;
+text-align: right;
+color: #304859;
 
 }
+
 .buttons3 label {
     position:absolute;
     left: 588px;
