@@ -49,8 +49,7 @@ class Game {
 		this.board = []
 		this.moves = new Array()
 		this.currentMoves = new Array()
-		this.move = 
-
+		this.move = 0
 		this.score = []
 		this.playerTurn = 1
 	}
@@ -62,13 +61,11 @@ class Game {
 			}
 		}
 	}
-
 	shuffleCards() {
 		this.board.sort(() => Math.random() - 0.5)
 		this.board.forEach((card, index) => {
 			card.order = index
 		})
-
 	}
 	createBoard() {
 		let cards
@@ -83,7 +80,6 @@ class Game {
 			card.classList.add('card')
 			card.classList.add(this.theme)
 			card.dataset.cardNumber = [i]
-			
 			card.dataset.size = this.size
 			card.innerHTML = `<div class="back"></div>`
 			board.appendChild(card)
@@ -164,8 +160,6 @@ class Game {
 				this.sortWinners()
 
 				if (this.score.filter((score) => score.winner === true).length === 1) {
-			
-			
 					popup.querySelector('.popup-header').innerHTML = `
 						<h2 class="title">Player ${this.score[0].player} wins</h2>
 						<p>Game over! Here are the results…</p>
@@ -231,7 +225,6 @@ class Game {
 }
 
 submit.addEventListener('click', function (e) {
-	
 	e.preventDefault()
 	startGame()
 })
